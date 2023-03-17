@@ -50,16 +50,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 Video Walkthrough of the Application and all functions:
 
-![Video Walkthrough](./media/)
-
-GIF of the Set-Up:
-![Media 1](./media/)
-
-GIFs of Category, Product and Tag functionalities in Insomnia:
-
-![Media 2](./media/)
-![Media 3](./media/)
-![Media 4](./media/)
+![Video Walkthrough](./media/ORM%20Video%20Walkthrough.webm)
 
 ---
 
@@ -77,12 +68,12 @@ Next, open an integrated terminal in your cloned folder and do the following:
     run "npm i"
 
 After Node Packages have installed, open your MySQL:
-    ```mb
+
     "mysql -u root -p"
     *enter your password*
     "SOURCE db/schema.sql"
     "exit"
-    ```
+
 
 Finally, after exiting MySQL:
 
